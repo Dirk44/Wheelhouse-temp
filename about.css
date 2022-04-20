@@ -1,0 +1,141 @@
+body {
+  background-image: url("./assets/about.jpg");
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* .back-text {
+  font-size: 15px;
+  color: azure;
+  padding-top: 4%;
+  font-family: "Nobile", sans-serif;
+} */
+
+.btn {
+  color: azure;
+  opacity: 0.6;
+  border: none;
+  background: none;
+  background-color: inherit;
+  font-size: 15px;
+  cursor: pointer;
+  /* display: inline-block; */
+  margin-top: 10%;
+  /* padding-top: 13%; */
+}
+
+/* On mouse-over */
+.btn:hover {
+  opacity: 1;
+}
+
+.description {
+  display: block;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding-top: 10%;
+  margin: auto;
+}
+
+.gladiators-logo {
+  display: block;
+  justify-content: center;
+  width: 55%;
+  height: auto;
+  padding-top: 4%;
+  margin: auto;
+}
+
+.summer {
+  display: block;
+  justify-content: center;
+  width: 50%;
+  height: auto;
+  padding-top: 8%;
+  margin: auto;
+}
+
+.trophies {
+  display: block;
+  justify-content: center;
+  width: 40%;
+  height: auto;
+  padding-top: 10%;
+  margin: auto;
+}
+
+.wh-logo {
+  display: block;
+  justify-content: center;
+  width: 50%;
+  height: auto;
+  margin: auto;
+  margin-top: 20%;
+}
+
+.wh-text {
+  font-size: 17px;
+  color: azure;
+  padding-top: 4%;
+  font-family: "Nobile", sans-serif;
+}
+
+@media screen and (max-width: 375px) {
+  .wh-logo {
+    display: block;
+    justify-content: center;
+    width: 40%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 40%;
+  }
+  .summer {
+    display: block;
+    justify-content: center;
+    width: 50%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .description {
+    display: block;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-top: 7%;
+    margin: auto;
+  }
+
+  .trophies {
+    display: block;
+    justify-content: center;
+    width: 40%;
+    height: auto;
+    padding-top: 8%;
+    margin: auto;
+  }
+
+  .wh-text {
+    font-size: 13px;
+    color: azure;
+    padding-top: 3%;
+    font-family: "Nobile", sans-serif;
+  }
+
+  .btn {
+    color: azure;
+    border: none;
+    background: none;
+    background-color: inherit;
+    font-size: 11px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    padding-top: 11%;
+    font-family: "Nobile", sans-serif;
+  }
+}

@@ -1,0 +1,133 @@
+body {
+  background-image: url("./assets/proMax.jpg");
+  background-color: black;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.btn {
+  display: block;
+  justify-content: center;
+  background-color: #56c4a5;
+  color: black;
+  text-align: center;
+  display: inline-block;
+  font-size: 8px;
+  margin-bottom: 4%;
+  border-radius: 7px;
+  width: 35%;
+  /* height: 15%; */
+}
+
+.clip {
+  display: block;
+  justify-content: center;
+  width: 55%;
+  height: auto;
+  margin: auto;
+  margin-top: 3%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 3px;
+  box-shadow: 10px 6px 15px #000000;
+}
+
+.gladiators-logo {
+  display: block;
+  justify-content: center;
+  width: 55%;
+  height: auto;
+  padding-top: 4%;
+  margin: auto;
+}
+
+.text {
+  font-size: 13px;
+  color: white;
+  text-align: center;
+  margin-top: 5%;
+  font-family: "Nobile", sans-serif;
+}
+
+.text-clip {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  margin-top: 4%;
+  font-family: "Nobile", sans-serif;
+}
+
+.wh-logo {
+  display: block;
+  justify-content: center;
+  width: 50%;
+  height: auto;
+  margin: auto;
+  margin-top: 20%;
+}
+
+.wh-text {
+  display: flex;
+  font-size: 15px;
+  color: azure;
+  padding-top: 5%;
+  justify-content: right;
+  font-family: "Nobile", sans-serif;
+}
+
+@media screen and (max-width: 375px) {
+  .wh-logo {
+    display: block;
+    justify-content: center;
+    width: 40%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 40%;
+  }
+  .clip {
+    display: block;
+    justify-content: center;
+    width: 55%;
+    height: auto;
+    margin: auto;
+    /* margin-top: 3%; */
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 5;
+    box-shadow: 10px 6px 15px #000000;
+  }
+}
+
+/* @media screen and (max-width: 425px) {
+  .wh-logo {
+    display: block;
+    justify-content: center;
+    width: 40%;
+    height: auto;
+    margin: auto;
+    margin-top: 15%;
+  }
+  .clip {
+    display: block;
+    justify-content: center;
+    width: 55%;
+    height: auto;
+    margin: auto;
+    margin-top: 3%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 5;
+    box-shadow: 10px 6px 15px #000000;
+  }
+  .wh-text {
+    display: flex;
+    font-size: 15px;
+    color: azure;
+    padding-top: 5%;
+    justify-content: right;
+    font-family: "Nobile", sans-serif;
+  }
+} */
